@@ -8,6 +8,8 @@ This project was generated with [angular-cli](https://github.com/angular/angular
     "primeui": "^4.1.14"
     "angular": "2.0.0-rc.4"
 
+Make sure to run `npm install` first to get all the required dependencies.
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
