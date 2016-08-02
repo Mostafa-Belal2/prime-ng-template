@@ -12,7 +12,7 @@ import { InputText } from 'primeng/primeng';
 
 export class AppComponent {  
     
-    title = 'app works!';
+    title = 'primeng rocks!';
 
     value: string = "";
 
