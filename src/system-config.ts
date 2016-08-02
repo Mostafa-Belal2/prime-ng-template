@@ -16,16 +16,9 @@ const map: any = {
 
 /** User packages configuration. */
 const packages: any = {
+  'primeng': { defaultExtension: 'js' }
 };
 
-/** put the names of any of your primeng components here */
-// const primengPkgs:string[] = [
-//   'button'
-// ];
-
-// primengPkgs.forEach((pkg) => {
-//   packages[`primeng/components/${pkg}`] = {main: `${pkg}.js`};
-// });
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
