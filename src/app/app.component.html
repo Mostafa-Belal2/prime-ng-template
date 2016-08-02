@@ -1,11 +1,13 @@
 <h1>{{value}}</h1>
 <input type="text" [(ngModel)]="value" pInputText/>
 
+
 <h3 class="first">Basic</h3>
 <div class="ui-g" style="width:250px;margin-bottom:10px">
-    <div class="ui-g-12"><p-checkbox name="group1" value="New York" label="New York" [(ngModel)]="selectedCities"></p-checkbox></div>
-    <div class="ui-g-12"><p-checkbox name="group1" value="San Francisco" label="San Francisco" [(ngModel)]="selectedCities"></p-checkbox></div>
-    <div class="ui-g-12"><p-checkbox name="group1" value="Los Angeles" label="Los Angeles" [(ngModel)]="selectedCities"></p-checkbox></div>
+    <div class="ui-g-12 form-control"><p-checkbox name="group1" value="New York" label="New York" [(ngModel)]="selectedCities"></p-checkbox></div>
+    <div class="ui-g-12 form-control"><p-checkbox name="group1" value="San Francisco" label="San Francisco" [(ngModel)]="selectedCities"></p-checkbox></div>
+    <div class="ui-g-12 form-control"><p-checkbox name="group1" value="Los Angeles" label="Los Angeles" [(ngModel)]="selectedCities"></p-checkbox></div>
 </div>
 
 Selected Cities: <span *ngFor="let city of selectedCities">{{city}}</span>
+
